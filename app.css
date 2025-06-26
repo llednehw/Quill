@@ -1,9 +1,21 @@
+/* 
+
+---------- TYPOGRAPHY ----------
+FONT SIZE
+12PX / 16PX
+
+---------- COLORS ----------
+
+*/
+
 h1 {
     font-weight: 700;
     text-align: center;
     line-height: 1.2;
     letter-spacing: -2px;
     font-size: 62px;
+    font-family: 'Poppins', sans-serif;
+    color: #212529;
 }
 
 h2 {
@@ -12,6 +24,8 @@ h2 {
     line-height: 1.2;
     letter-spacing: -2px;
     font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+    color: #212529;
 }
 
 h3 {
@@ -19,6 +33,8 @@ h3 {
     line-height: 1.2;
     letter-spacing: -2px;
     font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: #212529;
 }
 
 h4 {
@@ -26,6 +42,8 @@ h4 {
     line-height: 1.2;
     letter-spacing: -2px;
     font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    color: #212529;
 }
 
 h5 {
@@ -33,12 +51,16 @@ h5 {
     line-height: 1.2;
     letter-spacing: -2px;
     font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: #212529;
 }
 
 p {
     font-weight: 400;
     line-height: 1.5;
     font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #495057;
 }
 
 a {
@@ -46,6 +68,8 @@ a {
     text-decoration: none;
     line-height: 1.5;
     font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #495057;
 }
 
 ul {
