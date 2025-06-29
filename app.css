@@ -16,7 +16,6 @@ LETTER SPACING
 FONT FAMILY
 Poppins
 
-
 ---------- COLORS ----------
 PRIMARY
 Base Color: #339af0 (Sky Blue)
@@ -39,20 +38,28 @@ Tint Color: #f1f3f5 (Pebble)
 Shade Color: #212529 (Graphite)
 
 */
+
+
+
+/* global styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+}
+
 h1, h2, h3, h4, h5 {
     font-weight: 700;
     line-height: 1.2;
     letter-spacing: -2px;
-    font-family: 'Poppins', sans-serif;
     color: #212529;
 }
 h1 {
-    text-align: center;
     font-size: 62px;
 }
 
 h2 {
-    text-align: center;
     font-size: 48px;
 }
 
@@ -71,7 +78,6 @@ h5 {
 p, a, .small-text {
     font-weight: 400;
     line-height: 1.5;
-    font-family: 'Poppins', sans-serif;
     color: #495057;
 }
 p {
@@ -91,9 +97,11 @@ ul {
     font-size: 12px;
 }
 
+
+
+/* components */
 .btn {
     font-weight: 400;
-    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     text-decoration: none;
 }
@@ -114,3 +122,22 @@ ul {
     color: #7048e8;
 }
 
+/* hero section */
+.hero-section {
+    text-align: center;
+}
+
+/* features section */
+.features-main-heading {
+    text-align: center ;
+}
+
+/* cta section */
+.cta-section {
+    text-align: center;
+}
+
+/* footer section */
+.footer {
+    text-align: center;
+}
