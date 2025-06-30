@@ -37,6 +37,9 @@ Base Color: #495057 (Slate)
 Tint Color: #f1f3f5 (Pebble)
 Shade Color: #212529 (Graphite)
 
+White: #ffffff (White)
+Black: #000000 (Black)
+
 */
 
 
@@ -109,19 +112,39 @@ ul {
 }
 
 .btn-primary:link, .btn-primary:visited {
-    color: #339af0;
+    color: #ffffff;
+    background-color: #339af0;
 }
 
 .btn-primary:hover, .btn-primary:active {
-    color: #1c7ed6;
+    color: #ffffff;
+    background-color: #1c7ed6;
 }
 
-.btn-secondary:link .btn-secondary:visited {
-    color: #9775fa;
+.btn-secondary:link, .btn-secondary:visited {
+    color: #ffffff;
+    background-color: #9775fa;
 }
 
-.btn-secondary:hover, .btn-secondary:visited {
-    color: #7048e8;
+.btn-secondary:hover, .btn-secondary:active {
+    color: #ffffff;
+    background-color: #7048e8;
+}
+
+.highlight {
+    color: #ffffff;
+}
+
+.highlight-primary {
+    background-color: #339af0;
+}
+
+.highlight-secondary {
+    background-color: #9775fa;
+}
+
+.highlight-tertiary {
+    background-color: #ff922b;
 }
 
 /* hero section */
@@ -131,12 +154,16 @@ ul {
 
 /* features section */
 .features-main-heading {
-    text-align: center ;
+    text-align: center;
 }
 
 /* cta section */
 .cta-section {
     text-align: center;
+}
+
+.cta-card {
+    background-color: #339af0;
 }
 
 /* footer section */
