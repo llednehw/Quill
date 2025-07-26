@@ -93,7 +93,7 @@ Black: #000000 (Black)
     --grey-shade: #212529;
     
     --white: #ffffff;
-    --black:  #000000;
+    --black: #000000;
 
     /* miscellaneous */
     --nav-height: 300px; /* update the value in the flexbox topic */
