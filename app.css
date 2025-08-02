@@ -247,6 +247,12 @@ span {
     height: var(--nav-height);
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.nav-btn-container {
+    display: flex;
+    gap: 2rem;
 }
 
 /* hero section */
@@ -306,8 +312,20 @@ span {
 .footer {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 1rem;
 }
 
 .social-icons {
     width: 20px;
+}
+
+.social-icons-container {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer-links-container {
+    display: flex;
+    gap: 1rem;
 }
