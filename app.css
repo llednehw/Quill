@@ -96,7 +96,7 @@ Black: #000000 (Black)
     --black: #000000;
 
     /* miscellaneous */
-    --nav-height: 300px; /* update the value in the flexbox topic */
+    --nav-height: 100px; /* update the value in the flexbox topic */
 }
 
 /* universal selector */
@@ -259,16 +259,25 @@ span {
 .hero-section {
     height: calc(100vh - var(--nav-height));
     min-height: 400px;
-    text-align: center;
     margin-bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-heading {
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 .hero-paragraph {
     margin-bottom: 5rem;
+}
+
+.hero-btn-container {
+    display: flex;
+    gap: 2rem;
 }
 
 /* features section */
@@ -293,15 +302,17 @@ span {
 /* cta section */
 .cta-section {
     margin-bottom: 30rem;
+    display: flex;
+    justify-content: center;
 }
 
 .cta-card {
     text-align: center;
     background-color: var(--primary-base);
     max-width: 1000px;
+    width: 100%;
     padding: 10rem 20rem;
     border-radius: 20px;
-    margin: 0 auto;
 }
 
 .cta-heading {
