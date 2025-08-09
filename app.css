@@ -160,6 +160,10 @@ a {
     display: inline-block;
 }
 
+a:link, a:visited, a:hover, a:active {
+    color: var(--grey-base);
+}
+
 ul {
     list-style: none;
 }
@@ -330,6 +334,7 @@ span {
 }
 
 .cta-heading {
+    color: var(--white);
     margin-bottom: 3rem;
 }
 
@@ -353,4 +358,8 @@ span {
 .footer-links-container {
     display: flex;
     gap: 1rem;
+}
+
+.heart-icon {
+    color: var(--secondary-base);
 }
