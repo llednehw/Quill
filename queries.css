@@ -43,3 +43,32 @@
     padding: 8rem 16rem;
   }
 }
+
+/* Extra Small - Phone Portrait: < 576px */
+@media (max-width: 34rem) {   /* 530px / 16px = 33.125rem (round-off) 34rem */
+                              /* 34rem x 16px = 544px */
+  html {
+    font-size: 37.5%;   /* 6px / 16px = 37.5% */
+  }
+
+  .hero-heading-break {
+    display: none;
+  }
+
+  .hero-section {
+    height: auto;
+  }
+
+  .features-grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-img-swap-order {
+    grid-row: auto;
+    grid-column: auto;
+  }
+
+  .cta-card {
+    padding: 8rem 6rem;
+  }
+}
