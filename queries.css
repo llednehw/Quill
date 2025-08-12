@@ -22,3 +22,24 @@
     font-size: 50%   /* 8px / 16px = 50% */
   }
 }
+
+/* Small - Phone Landscape: 576px - 768px */
+@media (max-width: 43rem) {   /* 680px / 16px = 42.5rem (round-off) 43rem */
+                              /* 43rem x 16px = 688px */
+  html {
+    font-size: 43.75%;   /* 7px / 16px = 0.4375 = 43.75% */
+  }
+
+  .features-section {
+    margin-bottom: 20rem;
+  }
+
+  .features-grid-container {
+    row-gap: 5rem;
+    column-gap: 0.5rem;
+  }
+
+  .cta-card {
+    padding: 8rem 16rem;
+  }
+}
