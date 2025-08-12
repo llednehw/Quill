@@ -14,3 +14,11 @@
     margin-bottom: 20rem;
   }
 }
+
+/* Medium - Tablets: 768px - 1024px */
+@media (max-width: 51rem) {   /* 815px / 16px = 50.9375rem (round-off) 51rem */
+                              /* 51rem x 16px = 816px */
+  html {
+    font-size: 50%   /* 8px / 16px = 50% */
+  }
+}
