@@ -364,3 +364,24 @@ span {
 .heart-icon {
     color: var(--secondary-base);
 }
+
+/* chat-icon */
+.chat-container {
+    height: 7rem;
+    width: 7rem; 
+    background-color: var(--primary-tint);
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+}
+
+.chat-icon {
+    width: 5rem;
+    height: 5rem;
+}
