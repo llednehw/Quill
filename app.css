@@ -194,6 +194,7 @@ span {
     color: var(--white);
     background-color: var(--primary-shade);
     border: 2px solid var(--primary-shade);
+    transform: scale(1.05);
 }
 
 .btn-primary-outline:link, .btn-primary-outline:visited {
@@ -206,6 +207,7 @@ span {
     color: var(--primary-shade);
     background-color: var(--white);
     border: 2px solid var(--primary-shade);
+    transform: scale(1.05);
 }
 
 .btn-secondary:link, .btn-secondary:visited {
@@ -218,6 +220,7 @@ span {
     color: var(--white);
     background-color: var(--secondary-shade);
     border: 2px solid var(--secondary-shade);
+    transform: scale(1.05);
 }
 
 .highlight {
@@ -317,6 +320,7 @@ span {
     max-width: 400px;
     width: 100%;
 }
+
 
 /* cta section */
 .cta-section {
