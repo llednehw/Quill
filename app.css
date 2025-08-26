@@ -321,6 +321,25 @@ span {
     width: 100%;
 }
 
+/* beta */
+.beta {
+    position: relative;
+}
+
+.beta::after {
+    content: "beta";
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1.2rem;
+    background-color: var(--tertiary-base);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    color: var(--white);
+
+    transform: translate(70%, -70%);
+}
+
 
 /* cta section */
 .cta-section {
